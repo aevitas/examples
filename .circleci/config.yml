@@ -7,4 +7,4 @@ jobs:
       - checkout
       - run:
           name: build
-          command: dotnet build docker\github-circleci-kubernetes\HelloWorld.sln
+          command: dotnet build docker/github-circleci-kubernetes/HelloWorld.sln
